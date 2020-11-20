@@ -27,6 +27,5 @@ function draw(){
     background(0);
     Engine.update(engine);
     rectMode(CENTER);
-    rect(object.position.x,object.position.y,400,20);
-
+    rect(object.position.x,object.position.y,50,50);
 }
